@@ -1,0 +1,119 @@
+/* navigation  */
+#navbar{
+    flex-direction: column;
+}
+
+#navbar ul {
+    font-size: 8px;
+}
+#navbar ul li a {
+    font-size: 1rem;
+    padding: 0px 9px;
+    padding-bottom: 7px;
+}
+
+
+
+/* Home section  */
+#Home{
+    height: 430px;
+    padding: 0px 73px;
+    
+
+}
+#Home::before{
+    height: 536px;
+}
+
+#Home p{
+    font-size: 8px;
+}
+
+
+/* service section  */
+#service{
+    flex-direction: column;
+    
+
+}
+.service-container{
+    margin-top: 10px;
+}
+
+#service .box{
+   
+
+
+
+} 
+
+/* client section  */
+.client-item {
+    padding: 1px;
+}
+#client-section::before{
+    height: 48.5%;
+}
+#client{
+    flex-wrap: wrap;
+    margin-top: -4px;
+    height: 100%;
+}
+
+#client img{
+    width: 58px;
+    padding: 8px;
+    height: auto;
+}
+
+/* contact us section  */
+#contact::before{
+    height: 146.6%;
+    margin-top: -59px;
+}
+#contact {
+    margin-top: 257px;
+    margin-bottom: 150px;
+}
+
+#contact-box{
+    padding-top: 0px;
+}
+#contact-box form{
+    width: 70%;
+}
+#contact-box input,
+#contact-box textarea{
+    border-radius: 5px;
+    width: 100%;
+    padding: 0.3rem;
+    font-size: .7rem;
+    font-family: 'Baloo Bhai 2', cursive;
+
+}
+/* footer  */
+footer{
+    margin-bottom: 0px;
+}
+
+
+/* utility classes */
+.h-primary{
+    padding-top: 12px;
+    font-size: 22px;
+}
+
+.btn{
+    font-size: 12px;
+    padding: 6px 10px;
+}
+
+.submit{
+    width: 70%;
+    padding:2px 5px;
+
+}
+
+.center{
+    font-size: 12px;
+}
